@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome/fontawesome.min.css">
+        <link rel="stylesheet" href="css/fontawesome/brands.min.css">
+        <link rel="stylesheet" href="css/fontawesome/solid.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media-queries.css">
+        <link rel="shortcut icon" type="image/png" href="images/favicon.ico">
+
+        <title>EpLife</title>      
+    </head>
+    <body>
+        <!-- MENU NAVEGAÇÃO -->
+        <div class="navegacao">
+            <input type="checkbox" class="navegacao__checkbox" id="navegacao-toggle">
+            <label for="navegacao-toggle" class="navegacao__button">
+                <span class="navegacao__icon">&nbsp;</span>
+            </label>
+
+            <div class="navegacao__background">&nbsp;</div>
+            <nav class="navegacao__nav">
+                <ul class="navegacao__lista">
+                    <li class="navegacao__item"><a href="#sobre" class="navegacao__link">Sobre</a></li>
+                    <li class="navegacao__item"><a href="#equipe" class="navegacao__link">Equipe</a></li>
+                    <li class="navegacao__item"><a href="#projetos" class="navegacao__link">Projetos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- FIM MENU NAVEGAÇÃO -->
+
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__box">
+                <img src="images/logo.png" alt="Logo" class="header__logo">
+                <h1 class="titulo-h1">Melhorando a vida de quem precisa</h1>
+            </div>
+        </header>
+        <!-- FIM HEADER -->
+
+        <main>
+
+            <!-- SEÇÃO SOBRE -->
+            <section class="section-sobre" id="sobre">
+                <div class="container">
+                    <div class="row">
+                        <div class="u-align-center u-margin-bottom-g">
+                            <h2 class="titulo-h2">Sobre</h2>
+                        </div>
+                        <div class="col-xl-5">
+                            <img src="images/sobre-img.jpg" alt="" class="sobre__img u-margin-bottom-m">
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="sobre__texto">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget. Consectetur adipiscing elit duis tristique. Lacus viverra vitae congue eu consequat ac. In est ante in nibh mauris cursus. Lobortis scelerisque fermentum dui faucibus in ornare. Commodo sed egestas egestas fringilla phasellus faucibus. Eget nullam non nisi est. Id cursus metus aliquam eleifend mi. Quam pellentesque nec nam aliquam. Malesuada pellentesque elit eget gravida.</p>
+                                <p>
+                                Et magnis dis parturient montes nascetur ridiculus mus mauris. Odio pellentesque diam volutpat commodo sed egestas egestas. Urna duis convallis convallis tellus id interdum. In tellus integer feugiat scelerisque varius morbi. Nisi porta lorem mollis aliquam ut porttitor leo a. Eget lorem dolor sed viverra ipsum nunc aliquet. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Gravida rutrum quisque non tellus orci ac auctor augue. Nulla facilisi morbi tempus iaculis urna id volutpat lacus. Morbi tincidunt augue interdum velit. Non odio euismod lacinia at quis. Enim neque volutpat ac tincidunt vitae semper quis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIM SEÇÃO SOBRE -->
+
+            <!-- SEÇÃO EQUIPE -->
+            <section class="section-equipe" id="equipe">
+                <div class="container">
+                    <div class="row">
+                        <div class="u-align-center u-margin-bottom-g">
+                            <h2 class="titulo-h2 titulo-h2--white">Nossa equipe</h2>
+                        </div>
+
+                        <!-- INICIO CARROSSEL BOOTSTRAP -->
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+                            <!-- CARROSSEL INDICADORES -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                            </ol>
+                            <!-- FIM CARROSSEL INDICADORES -->
+
+                            
+                            <div class="carousel-inner">
+
+                              <!-- INICIO CARROSSEL ITEM -->
+                              <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-alan.jpg" alt="Alan Varela" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Alan Varela</span>
+                                            <div class="integrante__social-box">
+                                                <a href="https://www.linkedin.com/in/alan-varela-ferreira-432b5a159/" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-buda.jpg" alt="Caio Marte" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Caio Marte</span>
+                                            <div class="integrante__social">
+                                                <a href="https://www.linkedin.com/in/caiomarte/" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-leo.jpg" alt="Leonardo Badim" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Leonardo Badim</span>
+                                            <div class="integrante__social">
+                                                <a href="https://www.linkedin.com/in/leonardo-badim/" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <!-- FIM CARROSSEL ITEM -->
+
+                              <!-- INICIO CARROSSEL ITEM -->
+                              <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-luis.jpg" alt="Luis Lima" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Luis Lima</span>
+                                            <div class="integrante__social">
+                                                <a href="https://www.linkedin.com/in/luis-lima-0426b1140/" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-nay.jpg" alt="Nayara Brito" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Nayara Brito</span>
+                                            <div class="integrante__social">
+                                                <a href="#" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md">
+                                        <div class="integrante">
+                                            <div class="integrante__img-box u-margin-bottom-p">
+                                                <img src="images/foto-ste.jpg" alt="Stephanie França" class="integrante__img">
+                                            </div>
+                                            <span class="integrante__nome u-margin-bottom-p">Stephanie França</span>
+                                            <div class="integrante__social">
+                                                <a href="https://www.linkedin.com/in/stephanie-fran%C3%A7a-464119187/" target="_blank" class="button button--social btn--linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <!-- FIM CARROSSEL ITEM -->
+                            </div>
+                        </div>
+                        <!-- FIM CARROSSEL BOOTSTRAP -->
+                    </div>
+                </div>
+            </section>
+            <!-- FIM SEÇÃO EQUIPE -->
+
+            <!-- SEÇÃO PROJETOS -->
+            <section class="section-projetos" id="projetos">
+                <div class="container">
+                    <div class="row">
+                        <div class="u-align-center u-margin-bottom-g">
+                            <h2 class="titulo-h2">Nossos Projetos</h2>
+                        </div>
+                        <div class="col-md"></div>
+                        <div class="col-md-4">
+                            <div class="cartao">
+                                <div class="cartao__lado cartao__lado--frente">
+                                    <div class="cartao__imagem cartao__imagem--1">
+                                        &nbsp;
+                                    </div>
+                                    <h4 class="cartao__titulo">
+                                        <span class="cartao__titulo-span">Eplife Clinical</span>
+                                        
+                                    </h4>
+                                    <div class="cartao__texto">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget.</p>
+                                    </div>
+                                </div>
+                                <div class="cartao__lado cartao__lado--tras">
+                                    <div class="cartao__button">
+                                        <a href="#" class="button button--white">Ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="cartao">
+                                <div class="cartao__lado cartao__lado--frente">
+                                    <div class="cartao__imagem cartao__imagem--2">
+                                        &nbsp;
+                                    </div>
+                                    <h4 class="cartao__titulo">
+                                        <span class="cartao__titulo-span">Eplife Mobile</span>
+                                        
+                                    </h4>
+                                    <div class="cartao__texto">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget.</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque sit amet porttitor eget.</p>
+                                    </div>
+                                </div>
+                                <div class="cartao__lado cartao__lado--tras">
+                                    <div class="cartao__button">
+                                        <a href="#" class="button button--white">Ver mais</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- SEÇÃO PROJETOS -->
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__logo-box u-align-center">
+                <img src="images/logo.png" alt="EpLife" class="footer__logo">
+            </div>
+            <span class="copyright">© EpLife 2020 - Todos os direitos reservados.</span>
+        </footer>
+        <!-- FIM FOOTER -->
+
+    </body>
+    <script src="js/bootstrap.min.js"></script>
+</html>
